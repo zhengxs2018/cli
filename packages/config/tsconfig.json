@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "declarationDir": "./types"
+  },
+  "include": ["src", "../esbuild/src/defineConfig.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@zhengxs/*": ["packages/*/src"]
+    },
+    "types": ["jest", "node", "@vuepress/client/types"]
+  },
+  "include": [
+    "packages/global.d.ts",
+    "packages/*/src",
+    "packages/*/__tests__",
+    "scripts"
+  ],
+  "exclude": ["node_modules"]
+}

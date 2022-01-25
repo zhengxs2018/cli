@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/lerna"
+    },
+    {
+      "path": "./packages/config"
+    },
+    {
+      "path": "./packages/builder"
+    }
+  ]
+}

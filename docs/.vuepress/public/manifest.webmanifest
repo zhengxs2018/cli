@@ -1,0 +1,21 @@
+{
+  "name": "@zhengxs/cli",
+  "short_name": "ZHENGXS CLI",
+  "description": "自用命令行工具",
+  "start_url": "/cli/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#1e72ff",
+  "icons": [
+    {
+      "src": "/cli/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/cli/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

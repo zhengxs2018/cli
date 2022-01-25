@@ -1,0 +1,38 @@
+{
+  "name": "@zhengxs/eslint-config-library",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "eslint": ">=7",
+    "prettier": ">=2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-tsdoc": "^0.2.14"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.0",
+    "eslint": "^8.6.0",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "author": {
+    "name": "zhengxs2018",
+    "email": "zhengxs2018@foxmail.com"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["packages/lerna", "packages/config", "packages/builder"],
+  "entryPointStrategy": "Packages",
+  "out": "./docs/.vuepress/dist/api",
+  "exclude": ["test", "__tests__", "*.(spec|test).ts"],
+  "readme": "none",
+  "validation": true,
+  "excludePrivate": true,
+  "excludeExternals": true,
+  "excludeInternal": true,
+  "disableSources": true,
+  "hideGenerator": true,
+  "includeVersion": true,
+  "cleanOutputDir": true
+}

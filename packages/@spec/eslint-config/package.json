@@ -1,5 +1,5 @@
 {
-  "name": "@zhengxs/eslint-config-library",
+  "name": "@zhengxs/eslint-config",
   "version": "0.0.1",
   "main": "./index.js",
   "files": [
